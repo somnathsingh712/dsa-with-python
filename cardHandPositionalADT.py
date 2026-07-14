@@ -29,3 +29,32 @@ print(hand.play("Heart"))
 print()
 for card in hand.all_of_suit("Club"):
     print(card)
+
+
+
+# class cardhand:
+#     def __init__(self):
+#         self._list=positionallist()
+#         self._suites=['H','C','S','D']
+#         self._fingers={s:None for s in self._suites}
+
+#     def add_card(self,r,s):
+#         card=(r,s)
+#         fingers=self._fingers[s]
+
+#         if fingers is not None:
+#             new_pos=self._list.add_after(fingers,card)
+#             self.fingers[s]=new_pos
+#         else:
+#             ancor=None
+#             suite_idx=self._suites.index(s)
+
+#             for i in range(suite,_suitcase,-1,1,-1):
+#                 if self._fingers[self._suites[i]] is not None:
+#                     anchor= self.fingers[self._suites=[1]]
+#                     break
+
+
+#             if anchor is not None:
+#                 new_pos=self.list.add
+
